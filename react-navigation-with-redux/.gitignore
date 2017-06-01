@@ -1,0 +1,4 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+/react-navigation-with-redux/.DS_Store
