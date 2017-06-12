@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET_LEAGUE (LaLiga) 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "teams": Object {
+        "clubs": Array [
+          Object {
+            "code": "BAR",
+            "key": "barcelona",
+            "name": "Barcelona",
+          },
+          Object {
+            "code": "ESP",
+            "key": "espanyol",
+            "name": "Espanyol",
+          },
+          Object {
+            "code": "RMD",
+            "key": "madrid",
+            "name": "R. Madrid",
+          },
+          Object {
+            "code": "ATL",
+            "key": "atletico",
+            "name": "Atlético",
+          },
+          Object {
+            "code": "SEV",
+            "key": "sevilla",
+            "name": "Sevilla",
+          },
+          Object {
+            "code": "VAL",
+            "key": "valencia",
+            "name": "Valencia",
+          },
+          Object {
+            "code": "MAG",
+            "key": "malaga",
+            "name": "Málaga",
+          },
+          Object {
+            "code": "ATH",
+            "key": "athletic",
+            "name": "Athletic",
+          },
+          Object {
+            "code": "GRA",
+            "key": "granada",
+            "name": "Granada",
+          },
+          Object {
+            "code": "CEL",
+            "key": "celta",
+            "name": "Celta",
+          },
+          Object {
+            "code": "RSO",
+            "key": "realsociedad",
+            "name": "R. Sociedad",
+          },
+          Object {
+            "code": "DEP",
+            "key": "deportivo",
+            "name": "Deportivo",
+          },
+          Object {
+            "code": null,
+            "key": "eibar",
+            "name": "Eibar",
+          },
+          Object {
+            "code": "BET",
+            "key": "betis",
+            "name": "Betis",
+          },
+          Object {
+            "code": null,
+            "key": "sporting",
+            "name": "Sporting",
+          },
+          Object {
+            "code": null,
+            "key": "laspalmas",
+            "name": "Las Palmas",
+          },
+          Object {
+            "code": "OSA",
+            "key": "osasuna",
+            "name": "Osasuna",
+          },
+          Object {
+            "code": "VLL",
+            "key": "villareal",
+            "name": "Villarreal CF",
+          },
+          Object {
+            "code": null,
+            "key": "alaves",
+            "name": "Alavés",
+          },
+          Object {
+            "code": null,
+            "key": "leganes",
+            "name": "Club Deportivo Leganés",
+          },
+        ],
+        "name": "Primera División 2016/17",
+        "routeName": "laLiga",
+      },
+    },
+    "type": "GET_LEAGUE",
+  },
+]
+`;

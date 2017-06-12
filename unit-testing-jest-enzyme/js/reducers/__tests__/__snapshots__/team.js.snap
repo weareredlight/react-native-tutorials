@@ -1,0 +1,586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET_TEAM (LaLiga, Barcelona) 1`] = `
+Object {
+  "currentTeam": "Barcelona",
+  "matches": Array [
+    Object {
+      "date": "2016-08-20",
+      "score1": 6,
+      "score2": 2,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "BET",
+        "key": "betis",
+        "name": "Betis",
+      },
+    },
+    Object {
+      "date": "2016-08-28",
+      "score1": 0,
+      "score2": 1,
+      "team1": Object {
+        "code": "ATH",
+        "key": "athletic",
+        "name": "Athletic",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-09-10",
+      "score1": 1,
+      "score2": 2,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": null,
+        "key": "alaves",
+        "name": "Alavés",
+      },
+    },
+    Object {
+      "date": "2016-09-17",
+      "score1": 1,
+      "score2": 5,
+      "team1": Object {
+        "code": null,
+        "key": "leganes",
+        "name": "Club Deportivo Leganés",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-09-21",
+      "score1": 1,
+      "score2": 1,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "ATL",
+        "key": "atletico",
+        "name": "Atlético",
+      },
+    },
+    Object {
+      "date": "2016-09-24",
+      "score1": 0,
+      "score2": 5,
+      "team1": Object {
+        "code": null,
+        "key": "sporting",
+        "name": "Sporting",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-10-02",
+      "score1": 4,
+      "score2": 3,
+      "team1": Object {
+        "code": "CEL",
+        "key": "celta",
+        "name": "Celta",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-10-15",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "DEP",
+        "key": "deportivo",
+        "name": "Deportivo",
+      },
+    },
+    Object {
+      "date": "2016-10-23",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "VAL",
+        "key": "valencia",
+        "name": "Valencia",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-10-30",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "GRA",
+        "key": "granada",
+        "name": "Granada",
+      },
+    },
+    Object {
+      "date": "2016-11-06",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "SEV",
+        "key": "sevilla",
+        "name": "Sevilla",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-11-20",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "MAG",
+        "key": "malaga",
+        "name": "Málaga",
+      },
+    },
+    Object {
+      "date": "2016-11-27",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "RSO",
+        "key": "realsociedad",
+        "name": "R. Sociedad",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-12-04",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "RMD",
+        "key": "madrid",
+        "name": "R. Madrid",
+      },
+    },
+    Object {
+      "date": "2016-12-11",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "OSA",
+        "key": "osasuna",
+        "name": "Osasuna",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2016-12-18",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "ESP",
+        "key": "espanyol",
+        "name": "Espanyol",
+      },
+    },
+    Object {
+      "date": "2017-01-08",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "VLL",
+        "key": "villareal",
+        "name": "Villarreal CF",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-01-15",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": null,
+        "key": "laspalmas",
+        "name": "Las Palmas",
+      },
+    },
+    Object {
+      "date": "2017-01-22",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": null,
+        "key": "eibar",
+        "name": "Eibar",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-01-29",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BET",
+        "key": "betis",
+        "name": "Betis",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-02-05",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "ATH",
+        "key": "athletic",
+        "name": "Athletic",
+      },
+    },
+    Object {
+      "date": "2017-02-12",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": null,
+        "key": "alaves",
+        "name": "Alavés",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-02-19",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": null,
+        "key": "leganes",
+        "name": "Club Deportivo Leganés",
+      },
+    },
+    Object {
+      "date": "2017-02-26",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "ATL",
+        "key": "atletico",
+        "name": "Atlético",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-03-01",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": null,
+        "key": "sporting",
+        "name": "Sporting",
+      },
+    },
+    Object {
+      "date": "2017-03-05",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "CEL",
+        "key": "celta",
+        "name": "Celta",
+      },
+    },
+    Object {
+      "date": "2017-03-12",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "DEP",
+        "key": "deportivo",
+        "name": "Deportivo",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-03-19",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "VAL",
+        "key": "valencia",
+        "name": "Valencia",
+      },
+    },
+    Object {
+      "date": "2017-04-02",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "GRA",
+        "key": "granada",
+        "name": "Granada",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-04-05",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "SEV",
+        "key": "sevilla",
+        "name": "Sevilla",
+      },
+    },
+    Object {
+      "date": "2017-04-09",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "MAG",
+        "key": "malaga",
+        "name": "Málaga",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-04-16",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "RSO",
+        "key": "realsociedad",
+        "name": "R. Sociedad",
+      },
+    },
+    Object {
+      "date": "2017-04-23",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "RMD",
+        "key": "madrid",
+        "name": "R. Madrid",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-04-26",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "OSA",
+        "key": "osasuna",
+        "name": "Osasuna",
+      },
+    },
+    Object {
+      "date": "2017-04-30",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "ESP",
+        "key": "espanyol",
+        "name": "Espanyol",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-05-07",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": "VLL",
+        "key": "villareal",
+        "name": "Villarreal CF",
+      },
+    },
+    Object {
+      "date": "2017-05-14",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": null,
+        "key": "laspalmas",
+        "name": "Las Palmas",
+      },
+      "team2": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+    },
+    Object {
+      "date": "2017-05-21",
+      "score1": null,
+      "score2": null,
+      "team1": Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      "team2": Object {
+        "code": null,
+        "key": "eibar",
+        "name": "Eibar",
+      },
+    },
+  ],
+}
+`;
+
+exports[`INITIAL STATE 1`] = `
+Object {
+  "currentTeam": "",
+  "matches": Array [],
+}
+`;
