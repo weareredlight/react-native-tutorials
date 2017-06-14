@@ -1,6 +1,7 @@
 import { GET_TEAM } from './../actions/types';
 
 const initialState = {
+  image: '',
   currentTeam: '',
   matches: [],
 };

@@ -7,8 +7,14 @@ beforeEach(() => {
   store.clearActions();
 });
 
-it('GET_TEAM (Barcelona)', () => {
-  store.dispatch(actions.getTeam('LaLiga', 'Barcelona'));
+global.fetch = jest.fn().mockImplementation(() => Promise.resolve({
+  json: () => ({
+    Image: 'STRING_URL',
+  }),
+}));
+
+it('GET_TEAM (Barcelona)', async () => {
+  await store.dispatch(actions.getTeam('LaLiga', 'Barcelona'));
   expect(store.getActions()).toMatchSnapshot();
 });
 

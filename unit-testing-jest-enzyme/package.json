@@ -21,14 +21,19 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
+    "chai": "^4.0.2",
     "enzyme": "^2.8.2",
+    "enzyme-to-json": "^1.5.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "eslint-plugin-react-native": "^2.3.1",
-    "jest": "20.0.3"
+    "jest": "20.0.3",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "sinon": "^2.3.4"
   },
   "jest": {
     "preset": "react-native",

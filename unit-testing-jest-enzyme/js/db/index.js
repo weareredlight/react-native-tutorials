@@ -108,7 +108,7 @@ export const premierLeagueTeams = {
 
 export const laLigaTeams = {
   "name": "Primera División 2016/17",
-  "routeName": "laLiga",
+  "routeName": "LaLiga",
   "clubs": [
     {
       "key": "barcelona",

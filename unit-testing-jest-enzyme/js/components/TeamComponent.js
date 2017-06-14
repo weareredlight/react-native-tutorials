@@ -1,13 +1,15 @@
 import React, { PropTypes, Component } from 'react';
 import { connect } from 'react-redux';
-import { View, Text, FlatList, StatusBar } from 'react-native';
+import { View, Text, FlatList, StatusBar, StyleSheet } from 'react-native';
 import Header from '../components/Header';
+
 
 class TeamComponent extends Component {
 
   static propTypes = {
     team: PropTypes.string.isRequired,
     matches: PropTypes.arrayOf(PropTypes.shape()).isRequired,
+    image: PropTypes.string,
   }
 
   renderMatch = ({ item }) => (
@@ -25,12 +27,13 @@ class TeamComponent extends Component {
   );
 
   render() {
-    const { team, matches } = this.props;
+    const { team, matches, image } = this.props;
     const { renderMatch } = this;
+
     return (
       <View style={styles.screen}>
         <StatusBar barStyle={'light-content'} />
-        <Header title={team} />
+        <Header title={team} image={image} />
         <FlatList
           data={matches}
           renderItem={renderMatch}
@@ -44,9 +47,10 @@ class TeamComponent extends Component {
 const getTeamName = name => name.length > 15 ? `${name.substring(0, 15)}...` : name;
 const getDate = date => `${date.split('-')[2]}/${date.split('-')[1]}`;
 
-const styles = {
+const styles = StyleSheet.create({
   screen: {
     backgroundColor: 'white',
+    flex: 1,
   },
   home: {
     marginRight: 4,
@@ -58,7 +62,6 @@ const styles = {
     marginBottom: 4,
     backgroundColor: 'white',
     flexDirection: 'row',
-    flex: 1,
   },
   textWrapper: {
     backgroundColor: '#F4F3F3',
@@ -77,10 +80,11 @@ const styles = {
     fontWeight: 'bold',
     color: 'white',
   },
-};
+});
 
 const mapStateToProps = state => ({
   team: state.team.currentTeam,
   matches: state.team.matches,
+  image: state.team.image,
 });
 export default connect(mapStateToProps)(TeamComponent);

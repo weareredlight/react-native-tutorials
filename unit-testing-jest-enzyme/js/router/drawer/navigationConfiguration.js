@@ -1,5 +1,5 @@
 import React from 'react';
-import { DrawerNavigator, DrawerItems } from 'react-navigation';
+import { DrawerNavigator } from 'react-navigation';
 import StackNavigation from '../stack/StackNavigation';
 import CustomDrawerContent from './CustomDrawerContent';
 
@@ -25,5 +25,5 @@ const routeConfiguration = {
 };
 
 export const Drawer = DrawerNavigator(routeConfiguration, {
-  contentComponent: props => <CustomDrawerContent {...props} />
+  contentComponent: props => <CustomDrawerContent {...props} />,
 });

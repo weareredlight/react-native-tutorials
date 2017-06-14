@@ -108,7 +108,7 @@ Array [
           },
         ],
         "name": "Primera División 2016/17",
-        "routeName": "laLiga",
+        "routeName": "LaLiga",
       },
     },
     "type": "GET_LEAGUE",

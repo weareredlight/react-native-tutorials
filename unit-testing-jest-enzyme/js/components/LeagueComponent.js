@@ -17,7 +17,7 @@ class LeagueComponent extends Component {
       style={{ backgroundColor: index % 2 ? 'white' : '#F6F6F6' }}
       onPress={() => this.props.getTeam(this.props.league.routeName, item.name)}
     >
-      <View style={styles.container}>
+      <View style={styles.itemContainer}>
         <Text>{item.name}</Text>
         <Ionicons name={'ios-arrow-forward'} color={'black'} size={20} />
       </View>
@@ -27,11 +27,11 @@ class LeagueComponent extends Component {
   render() {
     const { league } = this.props;
     const { renderTeam } = this;
-    //console.log(JSON.stringify(league))
+
     return (
-      <View>
+      <View style={styles.container}>
         <StatusBar barStyle={'light-content'} />
-        <Header title={league.name} />
+        <Header title={league.name} image={null} />
         <FlatList
           data={league.clubs}
           renderItem={renderTeam}
@@ -42,12 +42,16 @@ class LeagueComponent extends Component {
 }
 
 const styles = {
-  container: {
+  itemContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingVertical: 10,
+    flex: 1,
+  },
+  container: {
+    flex: 1,
   },
 };
 

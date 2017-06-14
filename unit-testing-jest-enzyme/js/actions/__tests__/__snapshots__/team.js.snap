@@ -5,6 +5,7 @@ Array [
   Object {
     "payload": Object {
       "currentTeam": "Barcelona",
+      "image": "STRING_URL",
       "matches": Array [
         Object {
           "date": "2016-08-20",
@@ -583,14 +584,4 @@ Array [
 ]
 `;
 
-exports[`GET_TEAM (null) 1`] = `
-Array [
-  Object {
-    "payload": Object {
-      "currentTeam": null,
-      "matches": Array [],
-    },
-    "type": "GET_TEAM",
-  },
-]
-`;
+exports[`GET_TEAM (null) 1`] = `Array []`;
