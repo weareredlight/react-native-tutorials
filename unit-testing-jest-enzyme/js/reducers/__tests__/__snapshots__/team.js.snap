@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET_TEAM (LaLiga, Barcelona) 1`] = `
+Object {
+  "currentTeam": "",
+  "image": "",
+  "matches": Array [],
+}
+`;
+
+exports[`INITIAL STATE 1`] = `
+Object {
+  "currentTeam": "",
+  "image": "",
+  "matches": Array [],
+}
+`;

@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all children 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    barStyle="light-content"
+    showHideTransition="fade"
+  />
+  <Connect(Header)
+    image={null}
+    title="English Premier League 2016/17"
+  />
+  <FlatList
+    data={
+      Array [
+        Object {
+          "code": "CHE",
+          "key": "chelsea",
+          "name": "Chelsea",
+        },
+        Object {
+          "code": "ARS",
+          "key": "arsenal",
+          "name": "Arsenal",
+        },
+        Object {
+          "code": "TOT",
+          "key": "tottenham",
+          "name": "Tottenham Hotspur",
+        },
+        Object {
+          "code": "WHU",
+          "key": "westham",
+          "name": "West Ham United",
+        },
+        Object {
+          "code": "CRY",
+          "key": "crystalpalace",
+          "name": "Crystal Palace",
+        },
+        Object {
+          "code": "MUN",
+          "key": "manutd",
+          "name": "Manchester United",
+        },
+        Object {
+          "code": "MCI",
+          "key": "mancity",
+          "name": "Manchester City",
+        },
+        Object {
+          "code": "EVE",
+          "key": "everton",
+          "name": "Everton",
+        },
+        Object {
+          "code": "LIV",
+          "key": "liverpool",
+          "name": "Liverpool",
+        },
+        Object {
+          "code": "WBA",
+          "key": "westbrom",
+          "name": "West Bromwich Albion",
+        },
+        Object {
+          "code": "STK",
+          "key": "stoke",
+          "name": "Stoke City",
+        },
+        Object {
+          "code": "SUN",
+          "key": "sunderland",
+          "name": "Sunderland",
+        },
+        Object {
+          "code": "SOU",
+          "key": "southampton",
+          "name": "Southampton",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReached={[Function]}
+    onEndReachedThreshold={2}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</View>
+`;

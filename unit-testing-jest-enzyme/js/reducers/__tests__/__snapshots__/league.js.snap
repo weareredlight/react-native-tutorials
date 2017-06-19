@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GET_LEAGUE (LaLiga) 1`] = `
+Object {
+  "teams": Object {
+    "clubs": Array [
+      Object {
+        "code": "BAR",
+        "key": "barcelona",
+        "name": "Barcelona",
+      },
+      Object {
+        "code": "ESP",
+        "key": "espanyol",
+        "name": "Espanyol",
+      },
+      Object {
+        "code": "RMD",
+        "key": "madrid",
+        "name": "R. Madrid",
+      },
+      Object {
+        "code": "ATL",
+        "key": "atletico",
+        "name": "Atlético",
+      },
+      Object {
+        "code": "SEV",
+        "key": "sevilla",
+        "name": "Sevilla",
+      },
+      Object {
+        "code": "VAL",
+        "key": "valencia",
+        "name": "Valencia",
+      },
+      Object {
+        "code": "MAG",
+        "key": "malaga",
+        "name": "Málaga",
+      },
+      Object {
+        "code": "ATH",
+        "key": "athletic",
+        "name": "Athletic",
+      },
+      Object {
+        "code": "GRA",
+        "key": "granada",
+        "name": "Granada",
+      },
+      Object {
+        "code": "CEL",
+        "key": "celta",
+        "name": "Celta",
+      },
+      Object {
+        "code": "RSO",
+        "key": "realsociedad",
+        "name": "R. Sociedad",
+      },
+      Object {
+        "code": "DEP",
+        "key": "deportivo",
+        "name": "Deportivo",
+      },
+      Object {
+        "code": null,
+        "key": "eibar",
+        "name": "Eibar",
+      },
+      Object {
+        "code": "BET",
+        "key": "betis",
+        "name": "Betis",
+      },
+      Object {
+        "code": null,
+        "key": "sporting",
+        "name": "Sporting",
+      },
+      Object {
+        "code": null,
+        "key": "laspalmas",
+        "name": "Las Palmas",
+      },
+      Object {
+        "code": "OSA",
+        "key": "osasuna",
+        "name": "Osasuna",
+      },
+      Object {
+        "code": "VLL",
+        "key": "villareal",
+        "name": "Villarreal CF",
+      },
+      Object {
+        "code": null,
+        "key": "alaves",
+        "name": "Alavés",
+      },
+      Object {
+        "code": null,
+        "key": "leganes",
+        "name": "Club Deportivo Leganés",
+      },
+    ],
+    "name": "Primera División 2016/17",
+    "routeName": "LaLiga",
+  },
+}
+`;
+
+exports[`INITIAL STATE 1`] = `
+Object {
+  "teams": Object {
+    "clubs": Array [
+      Object {
+        "code": "CHE",
+        "key": "chelsea",
+        "name": "Chelsea",
+      },
+      Object {
+        "code": "ARS",
+        "key": "arsenal",
+        "name": "Arsenal",
+      },
+      Object {
+        "code": "TOT",
+        "key": "tottenham",
+        "name": "Tottenham Hotspur",
+      },
+      Object {
+        "code": "WHU",
+        "key": "westham",
+        "name": "West Ham United",
+      },
+      Object {
+        "code": "CRY",
+        "key": "crystalpalace",
+        "name": "Crystal Palace",
+      },
+      Object {
+        "code": "MUN",
+        "key": "manutd",
+        "name": "Manchester United",
+      },
+      Object {
+        "code": "MCI",
+        "key": "mancity",
+        "name": "Manchester City",
+      },
+      Object {
+        "code": "EVE",
+        "key": "everton",
+        "name": "Everton",
+      },
+      Object {
+        "code": "LIV",
+        "key": "liverpool",
+        "name": "Liverpool",
+      },
+      Object {
+        "code": "WBA",
+        "key": "westbrom",
+        "name": "West Bromwich Albion",
+      },
+      Object {
+        "code": "STK",
+        "key": "stoke",
+        "name": "Stoke City",
+      },
+      Object {
+        "code": "SUN",
+        "key": "sunderland",
+        "name": "Sunderland",
+      },
+      Object {
+        "code": "SOU",
+        "key": "southampton",
+        "name": "Southampton",
+      },
+      Object {
+        "code": "LEI",
+        "key": "leicester",
+        "name": "Leicester City",
+      },
+      Object {
+        "code": "BOU",
+        "key": "bournemouth",
+        "name": "Bournemouth",
+      },
+      Object {
+        "code": "WAT",
+        "key": "watford",
+        "name": "Watford",
+      },
+      Object {
+        "code": "BUR",
+        "key": "burnley",
+        "name": "Burnley",
+      },
+      Object {
+        "code": "HUL",
+        "key": "hull",
+        "name": "Hull City",
+      },
+      Object {
+        "code": "MFC",
+        "key": "middlesbrough",
+        "name": "Middlesbrough",
+      },
+      Object {
+        "code": "SWA",
+        "key": "swansea",
+        "name": "Swansea",
+      },
+    ],
+    "name": "English Premier League 2016/17",
+    "routeName": "PremierLeague",
+  },
+}
+`;
