@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BACK 1`] = `
+Array [
+  Object {
+    "type": "BACK",
+  },
+]
+`;
+
+exports[`TOGGLE_DRAWER 1`] = `
+Array [
+  Object {
+    "type": "TOGGLE_DRAWER",
+  },
+]
+`;
